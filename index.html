@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shivam Singh | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar">
+    <h2 class="logo">Shivam Singh</h2>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button id="darkModeBtn">🌙 Dark Mode</button>
+
+    <div class="menu-icon" id="menuIcon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- ================= HERO SECTION ================= -->
+  <section id="home" class="hero">
+
+    <img
+      src="shivam.png"
+      alt="Shivam Singh"
+      class="profile-pic"
+    >
+
+    <h1>Hi, I'm Shivam Singh 👋</h1>
+
+    <p>
+      First Year B.Tech CSE Student <br>
+      Web Developer | Video Editor | Prompt Engineer
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn">
+        View Projects
+      </a>
+
+      <a
+        href="Shivam_Singh_Resume.pdf"
+        download
+        class="btn resume-btn"
+      >
+        Download Resume
+      </a>
+    </div>
+
+    <!-- Social Links -->
+    <div class="social-links">
+
+      <a
+        href="https://github.com/shivamsinghns"
+        target="_blank"
+      >
+        <i class="fab fa-github"></i>
+      </a>
+
+      <a
+        href="https://linkedin.com/in/shivamsinghns"
+        target="_blank"
+      >
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <a href="mailto:ss426709@gmail.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+
+      <a
+        href="https://instagram.com/shivam_singh_rajputt13"
+        target="_blank"
+      >
+        <i class="fab fa-instagram"></i>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="section">
+
+    <h2>About Me</h2>
+
+    <p>
+      Hello! I'm <strong>Shivam Singh</strong>, a first-year
+      B.Tech CSE student passionate about technology,
+      problem-solving, and creativity.
+
+      I enjoy learning Web Development, Data Structures &
+      Algorithms, Artificial Intelligence, and Video Editing.
+
+      I love building websites, creating content,
+      and working on projects that help me improve my
+      technical and creative skills.
+
+      I am currently looking for opportunities to learn,
+      collaborate, and grow as a software developer.
+    </p>
+
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section id="skills" class="section">
+
+    <h2>My Skills</h2>
+
+    <div id="skillsContainer" class="skills-box">
+      <!-- Skills will come from JavaScript -->
+    </div>
+
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section id="projects" class="section">
+
+    <h2>My Projects</h2>
+
+    <div id="projectsContainer" class="projects-box">
+      <!-- Projects will come from JavaScript -->
+    </div>
+
+  </section>
+
+  <!-- ================= ACHIEVEMENTS ================= -->
+  <section id="achievements" class="section">
+
+    <h2>Achievements</h2>
+
+    <ul class="achievement-list">
+      <li>🏆 1st Prize - Vehibot Robotics Competition</li>
+      <li>🏆 1st Prize - Techmate 2026</li>
+      <li>🏆 1st Prize - AI Video Challenge</li>
+      <li>💼 Intern at Jumpp</li>
+    </ul>
+
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="section">
+
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+        required
+      >
+      <span class="error" id="nameError"></span>
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        placeholder="Enter your email"
+        required
+      >
+      <span class="error" id="emailError"></span>
+
+      <label for="message">Message</label>
+      <textarea
+        id="message"
+        rows="5"
+        placeholder="Write your message"
+        required
+      ></textarea>
+      <span class="error" id="messageError"></span>
+
+      <button type="submit">
+        Send Message
+      </button>
+
+      <p class="success" id="successMsg"></p>
+
+    </form>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+
+    <div class="footer-content">
+
+      <h3>Shivam Singh</h3>
+
+      <p>
+        Web Developer | Video Editor | Prompt Engineer
+      </p>
+
+      <div class="footer-social">
+
+        <a
+          href="https://github.com/shivamsinghns"
+          target="_blank"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a
+          href="https://linkedin.com/in/shivamsinghns"
+          target="_blank"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:ss426709@gmail.com">
+          <i class="fas fa-envelope"></i>
+        </a>
+
+        <a
+          href="https://instagram.com/shivam_singh_rajputt13"
+          target="_blank"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+
+      </div>
+
+      <p id="footerYear">
+        © 2026 Shivam Singh | Made with ❤️ using HTML, CSS and JavaScript
+      </p>
+
+    </div>
+
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
+
